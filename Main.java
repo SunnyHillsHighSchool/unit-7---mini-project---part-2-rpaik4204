@@ -17,19 +17,19 @@ public class Main {
       
       //Use this code to test the methods in the ComputingStatistics class
       ComputingStatistics analysis = new ComputingStatistics(list);
-      System.out.println(analysis.totalAmount());
-//       System.out.println(analysis.avgLoan());
-//       System.out.println(analysis.largestLoan());
-//       System.out.println(analysis.smallestLoan());
-//       System.out.println(analysis.largestLoanCountry());
-//       System.out.println(analysis.smallestLoanCountry());
-//       System.out.println(analysis.avgDaysToFund());
-//       System.out.println(analysis.largestLoanKenya());
-//       System.out.println(analysis.avgLoanPhilippines());
-//       System.out.println(analysis.longestToFundCountry());
-//       System.out.println(analysis.variance());
-//       System.out.println(analysis.standardDeviation());
-//       System.out.println(analysis.empiricalRule());
+       System.out.println("Total amount: " + analysis.totalAmount());
+       System.out.println("Average loan amount: " + analysis.avgLoan());
+       System.out.println("Largest loan amount: " + analysis.largestLoan());
+       System.out.println("Smallest loan amount: " + analysis.smallestLoan());
+       System.out.println("The country with the largest loan amount: " + analysis.largestLoanCountry());
+       System.out.println("The country with smallest loan amount: " + analysis.smallestLoanCountry());
+       System.out.println("Average days to fund loan request: " + analysis.avgDaysToFund());
+       System.out.println("The largest loan funded in Kenya: " + analysis.largestLoanKenya());
+       System.out.println("Average loan amount in the Philippines:" + analysis.avgLoanPhilippines());
+       System.out.println("The country with the longest to fund loan: " + analysis.longestToFundCountry());
+       System.out.println("Variance: " + analysis.variance());
+       System.out.println("Standard deviation: " + analysis.standardDeviation());
+       System.out.println("Empirical rule (yes/no): " + analysis.empiricalRule());
    }
    
    
